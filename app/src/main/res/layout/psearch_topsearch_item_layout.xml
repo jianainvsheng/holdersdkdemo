@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/psearch_topsearch_item_shap"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:visibility="gone"
+    >
+
+    <TextView
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:id="@+id/search_item"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#F3F5F7"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        />
+
+    <LinearLayout
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:id="@+id/search_delete"
+        android:layout_weight="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="×"
+        android:layout_marginLeft="8dp"
+        android:textSize="15sp"
+        android:textColor="#F3F5F7"
+        />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TCommon</string>
+    <!--EmptyViewBox start-->
+    <string name="emptyview_not_connect_net">哦喔，没有网络了呀！</string>
+    <string name="emptyview_not_connect_net_sorry">亲，您的手机网络不太顺畅哦</string>
+    <string name="emptyview_load_data_empty">页面在月球也找不到</string>
+    <string name="emptyview_load_data_err">加载失败了~</string>
+    <string name="emptyview_load_data_ing">数据加载中...</string>
+    <string name="setting_network">设置网络</string>
+    <string name="emptyview_load_again">重新加载</string>
+    <!--EmptyViewBox end-->
+</resources>

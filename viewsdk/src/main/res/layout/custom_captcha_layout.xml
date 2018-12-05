@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/captcha_code_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="ResourceName">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/captcha_login_code"
+        android:layout_centerVertical="true">
+        <EditText
+            android:id="@+id/captcha_code_edit"
+            style="@style/login_input_style_new"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/captcha_code_del_imageView"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/pickerview_wheelview_textcolor_out"
+            android:hint="请输入图片验证码"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/captcha_code_del_imageView"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/clear_input"
+            android:visibility="gone" />
+        <cn.tegele.com.tview.custom.StoreLineView
+            android:id="@+id/captcha_code_line_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/captcha_code_edit"
+            android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/captcha_login_code"
+        style="@style/login_picture_captcha_style"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="26dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitXY"/>
+</RelativeLayout>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HolderMeaven.iml" filepath="$PROJECT_DIR$/HolderMeaven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialogsdk/dialogsdk.iml" filepath="$PROJECT_DIR$/dialogsdk/dialogsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/holdermeaven/holdermeaven.iml" filepath="$PROJECT_DIR$/holdermeaven/holdermeaven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewsdk/viewsdk.iml" filepath="$PROJECT_DIR$/viewsdk/viewsdk.iml" />
+    </modules>
+  </component>
+</project>

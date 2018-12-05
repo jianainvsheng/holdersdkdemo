@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <item type="id" name="title_statusbarutil_fake_status_bar_view" tools:ignore="ResourceName" />
+    <item type="id" name="title_statusbarutil_translucent_view" tools:ignore="ResourceName" />
+    <item name="widget_product_detail_recycler_tiem_view_id" type="id"/>
+    <item name="jz_fullscreen_id" type="id" tools:ignore="ResourceName" />
+    <item name="jz_tiny_id" type="id" tools:ignore="ResourceName" />
+    <item name="bannerContainer" type="id"/>
+    <item name="bannerViewPager" type="id"/>
+    <item name="circleIndicator" type="id"/>
+    <item name="numIndicator" type="id"/>
+    <item name="titleView" type="id"/>
+    <item name="bannerTitle" type="id"/>
+    <item name="numIndicatorInside" type="id"/>
+    <item name="indicatorInside" type="id"/>
+    <item name="bannerDefaultImage" type="id"/>
+</resources>

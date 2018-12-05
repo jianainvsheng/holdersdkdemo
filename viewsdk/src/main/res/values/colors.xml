@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="all">
+    <color name="the_color_FFFFFF" tools:ignore="ResourceName">#FFFFFF</color>
+    <color name="the_theme_bg_color" tools:ignore="ResourceName">#F3F5F7</color>
+    <color name="bu_transparent" tools:ignore="ResourceName">#00000000</color>
+    <color name="title_bar_default_color" tools:ignore="ResourceName">#333333</color>
+    <color name="title_bar_color_262C32" tools:ignore="ResourceName">#262C32</color>
+    <color name="title_bar_bg_color" tools:ignore="ResourceName">#f8f8f8</color>
+    <color name="title_bar_middle_text_color" tools:ignore="ResourceName">#494d55</color>
+    <color name="title_bar_line_color" tools:ignore="ResourceName">#d2d2d2</color>
+    <color name="title_bar_click_press_color" tools:ignore="ResourceName">#e6e6e6</color>
+
+    <color name="widget_gu_orderlist_color_5A6066">#5A6066</color>
+    <color name="widget_gu_orderlist_color_01C990">#01C990</color>
+    <color name="widget_gu_orderlist_color_F20C59">#F20C59</color>
+    <color name="widget_gu_orderlist_color_FC1E56">#FC1E56</color>
+    <color name="widget_gu_orderlist_color_FA1E8C">#FA1E8C</color>
+    <color name="widget_gu_orderlist_color_0066cc">#0066cc</color>
+    <color name="widget_gu_orderlist_color_f4f4f4">#f4f4f4</color>
+    <color name="widget_gu_orderlist_color_f3f3f3">#f3f3f3</color>
+    <color name="widget_gu_orderlist_color_cccccc">#cccccc</color>
+    <color name="widget_gu_orderlist_color_ffffff">#ffffff</color>
+    <color name="widget_gu_orderlist_color_333333">#333333</color>
+    <color name="widget_gu_orderlist_color_666666">#666666</color>
+    <color name="widget_gu_orderlist_color_999999">#999999</color>
+    <color name="widget_gu_orderlist_color_e6e6e6">#e6e6e6</color>
+    <color name="widget_gu_orderlist_color_dddddd">#dddddd</color>
+    <color name="widget_gu_orderlist_color_f6f6f6">#f6f6f6</color>
+    <color name="widget_gu_orderlist_color_ebebeb">#ebebeb</color>
+    <color name="widget_gu_orderlist_color_ff8000">#ff8000</color>
+    <color name="widget_gu_orderlist_color_919599">#919599</color>
+    <color name="widget_gu_orderlist_color_D7D8D9">#D7D8D9</color>
+    <color name="widget_gu_orderlist_contents_text">#ff000000</color>
+
+    <color name="main_default_black_text_color" tools:ignore="ResourceName">#333333</color>
+    <color name="hint_text_color" tools:ignore="ResourceName">#999999</color>
+    <!--透明纯黑-->
+    <color name="white" tools:ignore="ResourceName">#ffffff</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#282A3D</color>
+
+    <color name="pickerview_topbar_title">#FFFFFF</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <color name="pickerview_bgColor_overlay">#60000000</color>
+    <color name="pickerview_bgColor_default">#FFFFFFFF</color>
+</resources>

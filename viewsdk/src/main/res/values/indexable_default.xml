@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="default_indexBar_textColor" tools:ignore="ResourceName">#8c8c8c</color>
+    <dimen name="default_indexBar_textSize" tools:ignore="ResourceName">14sp</dimen>
+    <color name="default_indexBar_selectedTextColor" tools:ignore="ResourceName">#f33737</color>
+    <dimen name="default_indexBar_textSpace" tools:ignore="ResourceName">4dp</dimen>
+    <drawable name="dafault_indexBar_background" tools:ignore="ResourceName">@android:color/transparent</drawable>
+    <dimen name="default_indexBar_layout_width" tools:ignore="ResourceName">24dp</dimen>
+</resources>

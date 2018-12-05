@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <item type="id" name="gimage_glide_request_id" tools:ignore="ResourceName">false</item>
+    <item name="common_orderlist_event_transfer_id" type="id"/>
+    <item name="common_orderlist_product_detail_list_view_item_view_id" type="id"/>
+    <item name="common_orderlist_psearch_linearity_adapter_hold_id" type="id" />
+    <item name="spearch_tab_item_id" type="id"/>
+    <item name="spearch_array_item_id" type="id"/>
+</resources>

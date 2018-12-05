@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#1D2232"
+                android:minHeight="300dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        >
+
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            style="@style/progressBar_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/not_net_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pb_loading"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/emptyview_no_net"/>
+
+        <TextView
+            android:id="@+id/not_net_hint_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/not_net_iv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="网络不见了"
+            android:textColor="#CDFFFFFF"
+            android:textSize="18sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/not_net_hint_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/not_net_hint_one"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="您的手机网络不太顺畅喔"
+            android:textColor="#A0FFFFFF"
+            android:textSize="16sp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/not_net_hint_two"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:visibility="gone"
+            >
+
+            <Button
+                android:id="@+id/setting_network_button"
+                style="@style/Gome.Button.StrokeLightGray.Style"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="设置网络"/>
+
+            <Button
+                android:id="@+id/load_again_button"
+                style="@style/Gome.Button.StrokeLightGray.Style"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="重新加载"/>
+
+            <Button
+                android:id="@+id/empty_target_button"
+                style="@style/Gome.Button.StrokeLightGray.Style"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

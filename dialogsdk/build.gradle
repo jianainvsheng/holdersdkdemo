@@ -1,0 +1,37 @@
+apply plugin: 'com.android.library'
+ext{
+    groupId = "cn.dialog.adk"
+    artifactId = "dialog"
+    version = "0.0.1"
+    packaging = "aar"
+}
+apply from: project.rootProject.uri('gradle/maven.gradle')
+android {
+    compileSdkVersion 27
+
+
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+
+}

@@ -1,0 +1,23 @@
+
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
+
+repositories {
+    mavenCentral()
+}
+
+//设置maven deployer
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            pom.groupId = project.ext.groupId
+            pom.artifactId = project.ext.artifactId
+            pom.version = project.ext.version
+            pom.packaging = project.ext.packaging
+            //提交到远程服务器：
+             repository(url: uri(MAVEN_URL)) {
+                authentication(userName: MAVEN_URL_NAME, password: MAVEN_URL_PASSWORD)
+             }
+        }
+    }
+}

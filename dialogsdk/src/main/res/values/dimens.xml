@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="book_border">10dp</dimen>
+    <dimen name="page_border">5dp</dimen>
+    <dimen name="book_padding">15dp</dimen>
+</resources>

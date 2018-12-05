@@ -1,0 +1,39 @@
+apply plugin: 'com.android.library'
+
+
+ext{
+    groupId = "cn.view.adk"
+    artifactId = "view"
+    version = "0.0.1"
+    packaging = "aar"
+}
+apply from: project.rootProject.uri('gradle/maven.gradle')
+android {
+    compileSdkVersion 27
+
+
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+}

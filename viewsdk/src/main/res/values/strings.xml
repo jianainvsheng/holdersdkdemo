@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ResourceName">
+    <string name="app_name" tools:ignore="ResourceName">TView</string>
+    <string name="tips_not_wifi" tools:ignore="ResourceName">You are currently using the mobile network, the player will continue to consume traffic</string>
+    <string name="tips_not_wifi_confirm" tools:ignore="ResourceName">Resume</string>
+    <string name="tips_not_wifi_cancel" tools:ignore="ResourceName">Stop play</string>
+    <string name="no_url" tools:ignore="ResourceName">No url</string>
+    <string name="replay" tools:ignore="ResourceName">Replay</string>
+    <string name="click_to_restart" tools:ignore="ResourceName">点击重试</string>
+    <string name="video_loading_faild" tools:ignore="ResourceName">视频加载失败</string>
+    <string name="srl_header_pulling" >下拉可以刷新</string>
+    <string name="srl_header_refreshing">正在刷新…</string>
+    <string name="srl_header_loading">正在加载…</string>
+    <string name="srl_header_release">释放立即刷新</string>
+    <string name="srl_header_finish">刷新完成</string>
+    <string name="srl_header_failed">刷新失败</string>
+    <string name="srl_header_update">上次更新 M-d HH:mm</string>
+    <string name="srl_header_secondary">释放进入二楼</string>
+
+    <string name="srl_footer_pulling">上拉加载更多</string>
+    <string name="srl_footer_release">释放立即加载</string>
+    <string name="srl_footer_loading">正在加载…</string>
+    <string name="srl_footer_refreshing">正在刷新…</string>
+    <string name="srl_footer_finish">加载完成</string>
+    <string name="srl_footer_failed">加载失败</string>
+    <string name="srl_footer_nothing">没有更多数据了</string>
+
+    <string name="srl_content_empty">SmartRefreshLayout中没有找到内容视图。您是否忘记在xml布局文件中添加？</string>
+    <string name="srl_component_falsify" formatted="false">%s 虚假区域\n代表运行时拖动的高度【%.1fdp】 \n而不会显示任何东西</string>
+
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
+</resources>

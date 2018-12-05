@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.demo.holder.tview.slidelayout.SlideLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/slidelayout_test"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <TextView
+
+        android:id="@+id/title_test"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/darker_gray"
+        android:text="content1"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:gravity="center">
+
+
+    </TextView>
+
+    <include android:id="@+id/item_menu"
+        layout="@layout/test_item_menu"/>
+
+</com.demo.holder.tview.slidelayout.SlideLayout>

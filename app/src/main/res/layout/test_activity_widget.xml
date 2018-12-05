@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.demo.holder.tview.scrollablelayout.ScrollableLayout
+        android:id="@+id/product_list_scrollable_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#220022"
+        >
+        <!--头部布局-->
+
+        <LinearLayout
+            android:id="@+id/product_list_header_view"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/psearch_list_right_rl"
+            android:layout_toRightOf="@+id/ll_common_title_btn_back"
+            android:background="@drawable/psearch_topsearch_layout_shap"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:id="@+id/home_top_searchlayout_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/gomeplus_searchar_magnifyingglass" />
+
+            <com.demo.holder.tview.search.SearchScrollView
+                android:id="@+id/home_top_searchlayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+
+                />
+        </LinearLayout>
+
+        <!--滑动顶部不在滑动布局-->
+        <LinearLayout
+            android:id="@+id/product_list_center_view"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:paddingBottom="1dp" >
+            <include
+                android:id="@+id/guide_orderlist_tab_layout"
+                layout="@layout/gu_orderlist_tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/product_list_bottom_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <com.view.sdk.smartlayout.SmartRefreshLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/guide_orderlist_refreshLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#111111"
+                app:widget_srlEnableFooterFollowWhenLoadFinished="true">
+
+                <ListView
+                    android:id="@+id/guide_orderlist_listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#F3F5F7"
+                    android:divider="@android:color/white"
+                    android:dividerHeight="2dp"
+                    android:listSelector="@android:color/white"
+                    android:overScrollMode="never"
+                    android:scrollbars="none" />
+            </com.view.sdk.smartlayout.SmartRefreshLayout>
+        </LinearLayout>
+    </com.demo.holder.tview.scrollablelayout.ScrollableLayout>
+</RelativeLayout>

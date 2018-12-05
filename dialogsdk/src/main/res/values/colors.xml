@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="book_loading_background">#00000000</color>
+    <color name="book_loading_book">#99FFFFFF</color>
+    <color name="_19DBDBDB">#19DBDBDB</color>
+    <color name="book_loading_page">#1D2232</color>
+</resources>
+
